@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>RememBrainMe</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+  </head> 
+  <body>
+    
+    <!-- barra de navegação -->
+
+    <nav class="navbar navbar-expand-lg navbar-Dark bg-ciano ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="imagens/Logotipo.png" id="logo" alt="logotipo" > RememBrainMe</a>       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link disabled">Medicamentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Pra que Serve?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Farmácias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Médicos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Hospitais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Enfermeiros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Calendário de Medicamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Paciente</a>
+              </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>  
+
+    <!-- Final da Barra de navegação -->
+
+    <!-- Inicio carrossel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/banner-bayer.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/banner-drogaria.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/banner-D'or.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    <!-- Fim carrossel -->
+
+    <!-- Botoes -->
+    
+    <div id="botoes" class="text-center">
+      <a href="#" class="btn btn-ciano"><img src="imagens/remedio.png"  width="120px"  alt="Medicamentos"></a>
+      <a href='#' class="btn btn-ciano"><img src="imagens/receita.png" style="margin-top: 11px;" width="114px" alt="Receita médica"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/loja.png" style="margin-top:12px;" width="115px" alt="Medicamentos"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/doutores.png" class="w-100" style="margin-top: 7px;" alt="Medicamentos"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/hospital.png" class="w-100" alt="Medicamentos"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/enfermeira.png" class="w-100" alt="Medicamentos"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/calendario.png" style="margin-top: 8px;" width="115px" alt="Medicamentos"></a>
+      <a href="#" class="btn btn-ciano"><img src="imagens/paciente.png" class="w-100" alt="Medicamentos"></a>
+    </div>
+
+    <!-- Fim dos Botões -->
+
+    <!-- Carrossel De baixo -->
+    <!-- <div id='ad-baixo'>
+      <img src="imagens/sirio.png" class="rounded float-start" alt="Hospital Sirio libanes">
+      <img src="imagens/10696-REDE-DOR-CampanhaNovembroAzul-BANNER-DIGITALRICHET_v02.png" class="rounded float-end" alt="Hospital São Luiz">
+    </div> -->
+    <!-- fim do carrossel de baixo -->
+
+    <div id='propaganda-2'>
+
+
+
+
+    </div>
+
+    <!-- Como funciona -->
+
+    <div id="como-funciona" class="text-center" data-aos="fade-up">
+      <h1> Como Funciona </h1>
+      <h4>Experimente Guardar seus Remédios e Médicos em uma só Plataforma</h4>
+      <div class="row" id="icones">
+        <div class="col-md" >
+          <a href="#" class="btn btn-icones-2"><img src="imagens/remedio-2.png" width="300px" alt="Medicamentos"></a>
+          <h2>Remédios</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, nam aperiam. Aliquid praesentium quam numquam, sapiente aperiam quas, autem impedit qui adipisci laudantium quisquam ipsum nostrum laboriosam soluta! Temporibus, doloribus?</p>
+        </div>
+        <div class="col-md">
+          <a href="#" class="btn btn-icones-2"><img src="imagens/hospital-2.png" width="300px" alt="Hospital"></a>
+          <h2>Hospitais</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis quas quos, ipsa incidunt officia exercitationem quae, totam dicta praesentium quibusdam dignissimos tempore impedit aperiam aut itaque? Accusamus, qui! Repellendus?</p>
+        </div>
+        <div class="col-md">
+          <a href="#" class="btn btn-icones-2"></a><img src="imagens/medico-2.png" width="300px" alt="Medicos"></a>
+          <h2>Médicos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis odio quas enim ipsam, tempore libero itaque officiis sint corporis soluta nam. Earum quisquam obcaecati assumenda accusamus numquam maxime soluta.</p>
+        </div>
+      </div>
+    </div> 
+    
+    <!-- Como Funciona Final -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+              <div class="col-6 ">
+                <a href="https://apps.apple.com/br/app/drogaria-s%C3%A3o-paulo/id1458029483" target="blank" class="rnk-comp-store"><span class="rnk-link-text rnk-apple-store">
+                  Clique aqui e baixe o <br>
+                   aplicativo para iOS
+                  <span class="rnk-pilulas"></span></span><svg class="rnk-link-svg rnk-logo-apple" width="35" height="42" viewBox="0 0 35 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28.6359 22.3133C28.6951 28.6692 34.2262 30.7843 34.2875 30.8113C34.2407 30.9605 33.4037 33.8255 31.3734 36.7849C29.6183 39.3434 27.7968 41.8926 24.9273 41.9454C22.1077 41.9972 21.201 40.2777 17.9775 40.2777C14.7549 40.2777 13.7475 41.8926 11.0785 41.9972C8.3087 42.1018 6.19953 39.2305 4.42984 36.6813C0.813698 31.4669 -1.94978 21.9466 1.76087 15.5203C3.60425 12.3289 6.8985 10.308 10.4741 10.2562C13.194 10.2045 15.7612 12.0813 17.4239 12.0813C19.0855 12.0813 22.2053 9.82424 25.4849 10.1557C26.8579 10.2127 30.7119 10.7089 33.1866 14.3219C32.9872 14.4452 28.5881 16.9995 28.6359 22.3133V22.3133ZM23.3368 6.70593C24.8073 4.93057 25.7971 2.4591 25.5271 0C23.4074 0.0849685 20.8443 1.40879 19.324 3.18317C17.9614 4.75448 16.7682 7.26945 17.0901 9.67987C19.4527 9.86218 21.8662 8.48242 23.3368 6.70593" fill="#ABABAB"></path></svg><img class="img-fluid rnk-link-img" src="imagens/disponivel-na-app-store-botao.png" alt="Disponível na Apple Store"></a>
+              </div>
+                 <div class="col-md-6">
+                    <a href="https://play.google.com/store/apps/details?id=br.com.app.meuvivasaude.descontos" target="blank" class="rnk-comp-store rtl"><span class="rnk-link-text rnk-google-play">
+                      Clique aqui e baixe o <br> 
+                      aplicativo para Android
+                      <span class="rnk-pilulas"></span></span><svg class="rnk-link-svg rnk-logo-android" width="39" height="46" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M38.998 17.7135C38.9977 16.1456 37.7248 14.8748 36.1545 14.8753C34.5844 14.8741 33.3116 16.1471 33.3118 17.7152L33.3138 29.6044C33.3137 31.174 34.586 32.4426 36.1573 32.443C36.5307 32.443 36.9005 32.3696 37.2455 32.2268C37.5905 32.0841 37.904 31.8749 38.168 31.6112C38.4319 31.3474 38.6413 31.0343 38.7841 30.6898C38.9268 30.3453 39.0002 29.976 39 29.6032L38.9979 17.7137L38.998 17.7135ZM6.79186 15.415L6.79624 33.8398C6.79499 35.5158 8.15256 36.8684 9.83029 36.8688L11.8963 36.8697L11.8989 43.1605C11.8985 44.7264 13.1736 46 14.7403 46C16.3116 46 17.5845 44.7256 17.5849 43.1586L17.5834 36.8691L21.4224 36.8683L21.424 43.1588C21.4236 44.7241 22.6996 45.9995 24.2664 45.997C25.8376 45.998 27.1113 44.7236 27.111 43.1563L27.1093 36.8676L29.1825 36.866C30.8561 36.8666 32.2175 35.5119 32.2178 33.8359L32.2146 15.4109L6.79198 15.4151L6.79186 15.415ZM25.3305 9.79221C24.7383 9.79283 24.2549 9.31347 24.2564 8.72022C24.2584 8.13272 24.7377 7.64786 25.331 7.64586C25.6153 7.64822 25.8873 7.7624 26.0879 7.96363C26.2885 8.16487 26.4015 8.43694 26.4025 8.72084C26.4027 8.8615 26.3751 9.0008 26.3213 9.1308C26.2675 9.26079 26.1885 9.37892 26.089 9.47842C25.9894 9.57793 25.8712 9.65686 25.741 9.7107C25.6109 9.76455 25.4714 9.79224 25.3305 9.79221ZM13.6673 9.79433C13.3832 9.7933 13.1111 9.68 12.9105 9.4792C12.7099 9.2784 12.5971 9.00645 12.5968 8.72284C12.5971 8.13372 13.0765 7.64936 13.6683 7.64948C13.9532 7.64994 14.2263 7.76315 14.4278 7.96429C14.6293 8.16543 14.7428 8.43811 14.7433 8.7226C14.7436 9.31347 14.2621 9.79395 13.6673 9.79433ZM25.7757 4.20252L27.7605 0.583862C27.8663 0.394814 27.798 0.153942 27.6048 0.0471802C27.4113 -0.0552101 27.1721 0.0143394 27.0698 0.204762L25.065 3.86126C23.3766 3.11205 21.4904 2.69125 19.493 2.69349C17.5007 2.69187 15.614 3.11055 13.9341 3.85476L11.9274 0.20776C11.8228 0.0154648 11.5828 -0.0542107 11.3933 0.0504265C11.2001 0.154068 11.1307 0.395439 11.2366 0.584114L13.2223 4.20027C9.3209 6.21064 6.68518 10.0346 6.68705 14.4264L32.3002 14.4239C32.3009 10.0327 29.6698 6.21538 25.7743 4.20164L25.7757 4.20252ZM2.84333 14.8778C1.27303 14.8771 0.000375192 16.1515 0 17.7168L0.00212588 29.6058C0.00191219 29.9788 0.0753256 30.3481 0.218168 30.6927C0.36101 31.0373 0.570479 31.3505 0.834603 31.6142C1.09873 31.878 1.41233 32.0871 1.75747 32.2298C2.10261 32.3725 2.47253 32.4458 2.84609 32.4456C3.2196 32.446 3.58951 32.3727 3.93464 32.2301C4.27976 32.0875 4.59333 31.8783 4.85737 31.6145C5.12141 31.3507 5.33074 31.0375 5.47339 30.6929C5.61604 30.3482 5.68919 29.9788 5.68867 29.6059L5.68892 17.7152C5.68829 16.1491 4.41376 14.8769 2.84333 14.8778Z" fill="#A4C439"></path></svg><img class="img-fluid rnk-link-img" src="imagens/disponivel-google-play-badge.png" alt="Disponível na Google Play"></a>
+                </div>  
+          </div>
+        </div>
+      </div>
+        
+      </footer>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/code.js"></script>
+
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
